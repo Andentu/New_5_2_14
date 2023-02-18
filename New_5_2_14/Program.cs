@@ -14,9 +14,9 @@
 
 
 
-            static int[] GetArrayFromConsole() //Инициализация метода. Метод для ввода значений элементов в массив result
+            static int[] GetArrayFromConsole(int Num = 5) //Инициализация метода. Метод для ввода значений элементов в массив result
             {
-                var result = new int[5];
+                var result = new int[Num]; //Размерность массива равна Num
 
                 for (int i = 0; i < result.Length; i++)
                 {
